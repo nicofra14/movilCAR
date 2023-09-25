@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,800&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Oswald&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@1,800&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Oswald&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>movilCAR</title>
+</head>
+<body>
+  <video id="video-bg" autoplay="" muted="" playsinline="" loop="" poster="ruta_a_una_imagen.jpg">
+    <source src="img/traffic_-_88921 (1080p).mp4" type="video/mp4">
+    Tu navegador no soporta la etiqueta de video.
+  </video>
+  <video class="elementor-background-video-hosted elementor-html5-video"  src="https://72park.com/wp-content/uploads/72-Park-Video.mp4" style="width: 1228.44px; height: 691px;"></video>
+  <div class="video-overlay"></div>
+
+  <header>
+    <div class="logo">
+      <h1>movilCAR</h1>
+    </div>
+
+
+    <div class="contact-info">
+      <div class="telephone">
+        <a href="https://api.whatsapp.com/send/?phone=34663534360&text&type=phone_number&app_absent=0">TEL +34 600 000 000</a>
+        
+      </div>
+    </div>
+
+    <div class="inquire">
+      <a href="#inquire">INFO</a>
+    </div>
+
+    <div class="init">
+      <h2>Vendemos tu coche al precio correcto</h2>
+      <p>Te ayudamos con todo el proceso, tú, solo recibes el dinero. </p>
+    </div>
+  </header>
+
+  
+
+  <section class="catalogo">
+    <h3>Catálogo de Vehículos</h3>
+    <!-- Contenido del catálogo aquí -->
+  </section>
+  
+  <section class="inquire" id="inquire">
+    <form class="contact-form">
+          <div class="contact-form-group">
+            <label for="name">Nombre</label>
+            <input required="" type="text" name="name" id="name">
+          </div>
+          <div class="contact-form-group">
+            <label for="email">Email</label>
+            <input required="" type="email" name="email" id="email">
+          </div>
+          <div class="contact-form-group">
+            <label for="message">Mensaje</label>
+            <textarea required="" name="message" id="message" rows="6"></textarea>
+          </div>
+
+          <button type="submit" class="contact-form-submit">Enviar</button>
+        </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Venta de Vehículos</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
+
